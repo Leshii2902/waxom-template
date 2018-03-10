@@ -1,0 +1,187 @@
+@keyframes offset_right_adapted1500 {
+  0% {
+    margin-left: 530px;
+  }
+  50% {
+    margin-left: 1100px;
+    z-index: 2;
+  }
+  100% {
+    margin-left: 530px;
+    z-index: 4;
+  }
+}
+@keyframes offset_left_adapted1500 {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: -600px;
+    z-index: 2;
+  }
+  100% {
+    margin-left: 0px;
+    z-index: 4;
+  }
+}
+@media screen and (max-width: 1500px) and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+  header .fixed {
+    left: 0;
+  }
+  header .fixed .logo {
+    margin-left: 150px;
+  }
+  header .fixed .horiz {
+    margin-left: 100px;
+  }
+  header .fixed .horiz a {
+    margin-left: 30px;
+  }
+  main .unique_design {
+    height: 584px;
+  }
+  main .unique_design .img img {
+    width: 1280px;
+  }
+  main .unique_design .img .left {
+    margin-top: 350px;
+  }
+  main .unique_design .img .right {
+    top: 350px;
+    left: 1075px;
+  }
+  main .unique_design .simple {
+    top: 550px;
+  }
+  main .unique_design .unique_design_content {
+    height: 584px;
+  }
+  main .unique_design .unique_design_content .design {
+    margin-top: 200px;
+    margin-left: 350px;
+  }
+  main .links {
+    height: 373px;
+  }
+  main .links article {
+    margin-top: 20px;
+  }
+  main .realization .browser_right {
+    margin-left: 510px;
+  }
+  main .realization .browser_right:hover {
+    animation: offset_right_adapted1500 1s 1;
+  }
+  main .realization .browser_left {
+    margin-left: 0;
+  }
+  main .realization .browser_left:hover {
+    animation: offset_left_adapted1500 1s 1;
+  }
+  main .projects {
+    height: 862px;
+  }
+  main .projects .projects_articles {
+    width: 1000px;
+    height: 500px;
+  }
+  main .projects .projects_articles article {
+    width: 300px;
+    height: 237px;
+  }
+  main .projects .projects_articles article .projects_hover {
+    width: 300px;
+    height: 170px;
+    margin-top: -170px;
+    margin-bottom: 0px;
+  }
+  main .projects .projects_articles article .projects_footers {
+    width: 300px;
+    height: 70px;
+  }
+  main .projects .projects_articles article .projects_footers h4 {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    margin-left: 20px;
+  }
+  main .projects .projects_articles article .projects_footers p {
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  main .excellent {
+    height: 1700px;
+  }
+  main .excellent .content {
+    margin-bottom: 50px;
+  }
+  main .excellent .excellent_footer article {
+    width: 150px;
+    margin-right: 20px;
+  }
+  main .recent .recent_articles {
+    width: 1000px;
+    height: 600px;
+  }
+  main .recent .recent_articles article {
+    width: 300px;
+  }
+  main .recent .recent_articles article .recent_article_img .date {
+    margin-top: -170px;
+  }
+  main .recent .recent_articles article .recent_article_img .scale {
+    margin-top: -100px;
+    margin-left: 110px;
+  }
+  main .recent .recent_articles article h3 {
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+  main .recent .recent_articles article .claritas {
+    margin-top: 19px;
+    margin-left: 29px;
+  }
+  main .recent .recent_articles article .read {
+    margin-top: 27px;
+    margin-left: 29px;
+  }
+  main .recent .recent_articles article .recent_article_hover {
+    width: 300px;
+    height: 177px;
+    margin-top: -363px;
+  }
+  main .labels_pict {
+    height: 500px;
+  }
+  main .labels_pict div {
+    height: 500px;
+  }
+  main .labels_pict div img {
+    margin-top: 100px;
+    margin-right: 90px;
+  }
+  footer {
+    height: 1100px;
+  }
+  footer .footer_info {
+    height: 908px;
+  }
+  footer .footer_info .waxom {
+    margin-top: 60px;
+    margin-left: 176px;
+  }
+  footer .footer_info .recent_twitter {
+    margin-top: 60px;
+    margin-left: 170px;
+  }
+  footer .footer_info .dribbble {
+    margin-top: 60px;
+    margin-left: 170px;
+  }
+  footer .copyright {
+    height: 180px;
+  }
+}

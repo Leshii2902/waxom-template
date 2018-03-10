@@ -1,0 +1,277 @@
+@keyframes offset_right_adapted1280 {
+    0% {
+        margin-left: 255px;
+    }
+    
+    50% {
+        margin-left: 1000px;
+        z-index: 2;
+    }
+    
+    100% {
+        margin-left: 255px;
+        z-index: 4;
+    }
+}
+
+
+@keyframes offset_left_adapted1280 {
+    0% {
+        margin-left: 0px;
+    }
+    
+    50% {
+        margin-left: -700px;
+        z-index: 2;
+    }
+    
+    100% {
+        margin-left: 0px;
+        z-index: 4;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+    .container {
+        width: 1024px;
+    }
+    
+    header {
+        
+        
+        .fixed {
+            left: 0;
+            
+            .button_menu {
+                display: block;
+            }
+
+            .left_menu {
+                display: block;
+            }
+
+            .logo {
+               margin-left: 200px;
+            }
+        
+            .horiz {
+                display: none;   
+           }
+        }
+   
+
+    
+    }
+    
+    main {
+        .unique_design {
+            height: 445px;
+            
+            .img {
+                img {
+                   width: 1024px;; 
+                }
+                
+                .left {
+                   margin-top: 250px; 
+                   left: 50px;
+                }
+                
+                .right {
+                    top: 250px; 
+                    left: 900px;
+                }
+            }
+            
+            .simple {
+                top: 420px;
+            }
+            
+            .unique_design_content {
+                height: 445px;
+                
+                .design {
+                    margin-top: 100px;
+                    margin-left: 210px;
+                }
+            
+            }
+            
+            
+        }
+        
+        .links {
+             height: 473px;
+            
+            article {
+                margin-top: 20px;
+            }
+        }
+        
+        .realization {
+            .browser_right {
+                margin-left: 255px;
+            }
+            
+            .browser_right:hover {
+            animation: offset_right_adapted1280 1s 1;
+        }
+            
+            .browser_left {
+                margin-left: 0;
+            }
+            
+            .browser_left:hover {
+             animation: offset_left_adapted1280 1s 1;
+            }
+        }
+        
+        .projects {
+            height: 862px;
+            
+            .projects_articles {
+                width: 1000px;
+                height: 500px;
+                
+                article {
+                width: 270px;
+                height: 237px;
+                
+                    
+                    .projects_hover {
+                        width: 270px;
+                        height: 166px;
+                        margin-top: -170px;
+                        margin-bottom: 0px;
+                    }
+                    
+                    .projects_footers {
+                        width: 270px;
+                        height: 70px;
+                        
+                        h4 {
+                           font-size: 14px;
+                            margin-top: 15px;
+                            margin-bottom: 14px;
+                            margin-left: 20px;
+                        }
+                    
+                        p {
+                            font-size: 10px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
+            
+        }
+        
+        .excellent {
+            height: 1700px;
+            
+            .content {
+                margin-bottom: 50px;
+            }
+            
+            .excellent_footer {
+                article {
+                    width: 150px;
+                    margin-right: 20px;
+                }
+            }
+        }
+        
+        .recent {
+            .recent_articles {
+                width: 800px;
+                height: 600px;
+                
+                
+                article {
+                    width: 230px;
+                   
+                    
+                    .recent_article_img {
+                        
+                        
+                        .date {
+                            margin-top: -130px;
+                        }
+                        
+                        .scale {
+                            margin-top: -160px;
+                            margin-left: 80px;
+                        }
+                    }
+                    
+                    h3 {
+                        margin-left: 20px;
+                        margin-top: -50px;
+                        font-size: 14px;
+                    }
+                    
+                    .claritas {
+                        margin-top: 19px;
+                        margin-left: 29px;
+                        font-size: 12px;
+                    }
+                    
+                    .read {
+                        margin-top: 27px;
+                        margin-left: 29px;
+                        font-size: 12px;
+                    }
+                    
+                    .recent_article_hover {
+                        width: 230px;
+                        height: 137px;
+                        margin-top: -347px;
+                    }
+                }
+            }
+            
+        }
+        
+        .labels_pict {
+            height: 650px;
+            
+            div {
+                height:650px;
+                
+                img {
+                    margin-top: 100px;
+                    margin-right: 90px;
+                }
+            }
+        }
+        
+        
+    }
+    
+    footer {
+        height: 1100px;
+        
+        .footer_info {
+            height: 908px;
+            
+            .waxom {
+                 margin-top: 60px;
+                 margin-left: 176px;
+            }
+            
+            .recent_twitter {
+                margin-top: 60px;
+                margin-left: 170px;
+            }
+            
+            .dribbble {
+                margin-top: 60px;
+                margin-left: 170px;
+            }
+        }
+        
+        .copyright {
+            height: 180px;
+        }
+    }
+}
